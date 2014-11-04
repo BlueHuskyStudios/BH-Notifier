@@ -1,0 +1,12 @@
+notification = {
+	"title": "Notification Title!",
+	"type": INFO,
+	"text": "This is the text in the notification",
+	"icon": "C:\\optional\\path\\to\\icon.png",
+	"buttons": OK_CANCEL,
+	"actions": [
+		"C:\\optional\\path\\to\\ok-program.jar -with arguments",
+		"C:\\optional\\path\\to\\cancel-program.jar -with arguments"
+	],
+	"decay": PERMANENT
+}
